@@ -26,10 +26,10 @@ enviar <IP> <mensagem> - Envia mensagem para outro roteador
 sair - Encerra o roteador
 
 ## Detalhes Técnicos
-Porta UDP: 6000
-Intervalo de atualização: 10 segundos
-Timeout de falha: 15 segundos
-Métrica: Contagem de saltos 
+Porta UDP: 6000  
+Intervalo de atualização: 10 segundos  
+Timeout de falha: 15 segundos  
+Métrica: Contagem de saltos  
 ## Protocolo de Mensagens
 @<IP> - Anúncio de novo roteador
 *<IP>;<métrica> - Atualização de tabela de roteamento
