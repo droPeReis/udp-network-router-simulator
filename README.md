@@ -1,21 +1,8 @@
-🌐 Simulador de Roteador - Protocolo Distance Vector
-English | Português
+## Simulador de Roteador - Protocolo Distance Vector
 
-Português
-📋 Descrição
-Implementação de um simulador de roteador que utiliza o protocolo de roteamento por vetor de distâncias (Distance Vector / RIP). O sistema simula uma rede de roteadores que trocam informações de roteamento via UDP, implementando funcionalidades como:
+Simulador de um sistema de roteamento que utiliza o protocolo de roteamento por vetor de distâncias (RIP). O sistema simula uma rede de roteadores que trocam informações de roteamento via UDP, implementando funcionalidades como:
 
-Troca automática de tabelas de roteamento
-Split Horizon para evitar loops
-Detecção de falhas de roteadores
-Encaminhamento de mensagens entre roteadores
-🚀 Funcionalidades
-Descoberta Automática: Roteadores anunciam sua presença na rede
-Atualização Dinâmica: Tabelas de roteamento são atualizadas automaticamente
-Detecção de Falhas: Identifica roteadores inativos (timeout de 15s)
-Split Horizon: Previne loops de roteamento
-Encaminhamento de Mensagens: Roteia mensagens entre roteadores através da melhor rota
-📦 Requisitos
+# Requisitos
 Java 8 ou superior
 Arquivo roteadores.txt com lista de IPs dos roteadores vizinhos
 🔧 Configuração
